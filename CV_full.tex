@@ -13,15 +13,16 @@
   {\end{itemize}}
 
 \newcommand{\cvheading}[1]{
-\vspace{0.15in}
+\vspace{0.11in}
 \noindent
 \MakeUppercase{\bf #1}
-\vspace{0.08in}
+\vspace{0.06in}
 {\hrule height 0.3mm}
-\vspace{0.08in}}
+\vspace{0.06in}}
 
 \newcommand{\workplace}[4]{
 \noindent
+\vspace{0.012in}
 \begin{tabular*}{1.0\textwidth}{@{\extracolsep{\fill}} l r}
 %\begin{tabular}{p{0.6\textwidth} p{0.35\textwidth}}
 {\bf #1} & #2\\
@@ -32,6 +33,7 @@
 
 \newcommand{\workplaceadvisor}[5]{
 \noindent
+\vspace{0.012in}
 \begin{tabular*}{1.0\textwidth}{@{\extracolsep{\fill}} l r}
 %\begin{tabular}{p{0.6\textwidth} p{0.35\textwidth}}
 {\bf #1} & #2\\
@@ -63,8 +65,9 @@ Email: cdsilva@princeton.edu & {\em Princeton, New Jersey 08544}\\
 
 \cvheading{Research Interests}
 \begin{itemize*}
-\item Data mining: machine learning, model reduction, pattern and anomaly detection
-\item Molecular modeling and simulations: coarse graining macromolecules, glassy dynamics
+\item Data mining and machine learning (specializing in unsupervised learning)
+\item Parameter and model reduction 
+\item Image analysis, symmetry reduction, pattern and anomaly detection
 \end{itemize*}
 
 \cvheading{Education}
@@ -73,6 +76,7 @@ Email: cdsilva@princeton.edu & {\em Princeton, New Jersey 08544}\\
 \item Ph.D. candidate, Chemical Engineering
 \item M.A., Chemical Engineering, 2012
 \item Research advisor: Ioannis Kevrekidis
+\item Cumulative GPA: 3.94/4.0
 \end{itemize*}
 
 \spacing
@@ -87,9 +91,12 @@ Email: cdsilva@princeton.edu & {\em Princeton, New Jersey 08544}\\
 \cvheading{Research Experience}
 \workplace{Princeton University}{January 2011 - present}{Advisor: Dr. Ioannis Kevrekidis, Professor of Chemical and Biological Engineering}{Princeton, New Jersey}
 \begin{itemize*}
-\item Analyze data from complex systems using nonlinear dimensionality reduction techniques, such as diffusion maps, to determine the appropriate variables to describe the system's underlying dynamics
-\item Simulate complex molecular systems using molecular dynamics
-\item Develop reduced models for chemical reaction networks and macromolecular simulations
+\item Analyze data from complex systems using nonlinear dimensionality reduction techniques%, such as diffusion maps, to determine the appropriate variables to describe the system's underlying dynamics
+\item Explore data for a variety of applications, including images from microscopy of biological samples, trajectories from molecular dynamics simulations of molecules, and data from simulations of chemical reaction networks containing many species
+\item Uncover patterns and trends in data, as well as develop reduced models to describe the underlying dynamics
+%\item Uncover trends and patterns in images from microscopy of biological samples
+%\item Simulate complex molecular systems using molecular dynamics
+%\item Develop reduced models for chemical reaction networks and macromolecular simulations
 \end{itemize*}
 
 \spacing
@@ -117,20 +124,39 @@ Email: cdsilva@princeton.edu & {\em Princeton, New Jersey 08544}\\
 \item Modeled the cleavage of heavy hydrocarbons during crude refining using lumping techniques, Summer 2009
 \end{itemize*}
 
+\cvheading{Computing Skills}
+\begin{itemize*}
+\item Proficient in MATLAB and Python
+\item Familiar with C, C++, Java
+\item Exposure to Visual Basic and R
+\item LAMMPS for molecular dynamics simulations
+\end{itemize*}
+
+
 \cvheading{Publications}
 \begin{itemize*}
-\item {\bf C. J. Dsilva}, R. Talmon, N. Rabin, R. R. Coifman, and I. G. Kevrekidis, ``Nonlinear Intrinsic Variables and State Reconstruction in Multiscale Simulations,''
-{\em The Journal of Chemical Physics}, 2013, {\em submitted}.
-\item E. Chiavazzo, C. W. Gear, {\bf C. Dsilva}, N. Rabin, and I. G. Kevrekidis, ``Reduced models in chemical kinetics via nonlinear data-mining,'' {\em Processes}, 2013, {\em submitted}.
-\item Y. Xue, P. J. Ludovice, M. A. Grover, L. V. Nedialkova, {\bf C. J. Dsilva}, and I. G. Kevrekidis, ``State reduction in molecular simulations,'' {\em Computers \& Chemical Engineering}, 2013.
-\item S. Miller, {\bf C. Dsilva}, and J. R. Kitchin, ``Coverage dependent adsorption properties of atomic adsorbates on late transition metal surfaces,'' {\em Catalysis}, vol. 24, Royal Society of Chemistry, 2012.
+\item {\bf C. J. Dsilva} {\it et al}, ``Temporal ordering and registration of images in studies of developmental dynamics,'' {\em Proceedings of the National Academy of Sciences of the United States of America}, submitted
+\item E. Chiavazzo, C. W. Gear, {\bf C. J. Dsilva}, N. Rabin, and I. G. Kevrekidis, ``Reduced models in chemical kinetics via nonlinear data-mining,'' {\em Processes}, 2014
+\item {\bf C. J. Dsilva}, R. Talmon, N. Rabin, R. R. Coifman, and I. G. Kevrekidis, ``Nonlinear intrinsic variables and state reconstruction in multiscale simulations,''
+{\em The Journal of Chemical Physics}, 2013
+\item Y. Xue, P. J. Ludovice, M. A. Grover, L. V. Nedialkova, {\bf C. J. Dsilva}, and I. G. Kevrekidis, ``State reduction in molecular simulations,'' {\em Computers \& Chemical Engineering}, 2013
+\item S. Miller, {\bf C. Dsilva}, and J. R. Kitchin, ``Coverage dependent adsorption properties of atomic adsorbates on late transition metal surfaces,'' {\em Catalysis}, volume 24, Royal Society of Chemistry, 2012
+\end{itemize*}
+
+{\em In preparation}
+
+\begin{itemize*}
+\item {\bf C. J. Dsilva}, R. Talmon, R. R. Coifman, and I. G. Kevrekidis, ``Choosing appropriate metrics for diffusion maps analysis: A chemotaxis case study''
+\item {\bf C. J. Dsilva}, R. Talmon, C. W. Gear, R. R. Coifman, and I. G. Kevrekidis, ``Nonlinear intrinsic variables for the reduction of multiscale stochastic systems''
 \end{itemize*}
 
 \cvheading{Presentations}
 \begin{itemize*}
+\item American Institute for Chemical Engineers (AIChE) Annual Meeting,  ``Intrinsic variables and the consistent reduction of molecular simulation models", oral presentation, San Francisco, California, November 2013
+\item AIChE Annual Meeting,  ``Image mining and the temporal evolution of protein spatial patterns: A case study in {\it Drosophila} embryogenesis", oral presentation, San Francisco, California, November 2013
 \item Department of Energy Computational Science Graduate Fellowship Annual Program Review, ``Validating Reduced Models Using Nonlinear Intrinsic Variables'', poster presentation, July 2013
-\item Society for Industrial and Applied Mathematics (SIAM) Conference on Applications of Dynamical Systems, ``Diffusion Maps for Model Reduction of Dynamics with Symmetries'', oral presentation, May 2013
-\item Society for Industrial and Applied Mathematics (SIAM) Conference on Computational Science and Engineering, ``Analysis of Glassy Potential Energy Landscapes'', oral presentation, February 2013
+\item Society for Industrial and Applied Mathematics (SIAM) Conference on Dynamical Systems, ``Diffusion maps for model reduction of dynamics with symmetries'', oral presentation, Snowbird, Utah, May 2013
+\item SIAM Conference on Computational Science and Engineering, ``Analysis of glassy potential energy landscapes'', oral presentation, Boston, Massachusetts, February 2013
 \item Princeton University Graduate Student Symposium, ``Uncovering underlying structure in glassy energy landscapes'', poster presentation, October 2012
 \item Department of Energy Computational Science Graduate Fellowship Annual Conference, ``The Analysis of Glassy Landscapes Using Diffusion Maps'', poster presentation, July 2012
 \item Department of Energy Computational Science Graduate Fellowship Annual Conference, ``The Study of a Lennard-Jones Cluster Using Diffusion Maps'', poster presentation, July 2011
@@ -142,19 +168,15 @@ Email: cdsilva@princeton.edu & {\em Princeton, New Jersey 08544}\\
 \item Winter School on Complex Modeling and Networks, New England Complex Systems Institute, Cambridge, Massachusetts, January 2013
 \end{itemize*}
 
-\cvheading{Computing Skills}
-\begin{itemize*}
-\item Programming languages: skilled with MATLAB and Python, familiar with C, C++, Java, Visual Basic, and R
-\item Molecular simulations software: LAMMPS (molecular dynamics), Dacapo (density functional theory)
-\end{itemize*}
+
 
 \cvheading{Awards and Honors}
 \noindent
 \begin{itemize*}
 \item Air Products Assistant in Instruction Award, 2013\\
-    {\em \small Awarded annually to two graduate students in Chemical and Biological Engineering at Princeton University for excellence in teaching}
+    {\em \small Awarded annually to two graduate students in Chemical Engineering at Princeton University for excellence in teaching}
 \item Department of Energy Computational Science Graduate Fellowship, 2010 \\
-    {\em \small Awarded annually to approximately twenty graduate students nationwide; provides four years of tuition and a stipend for graduate studies}
+    {\em \small Awarded annually to approximately twenty graduate students nationwide; provides four years of tuition and a stipend}
 \item National Science Foundation Graduate Research Fellowship, 2010 (deferred)\\
     {\em \small Awarded annually to approximately two thousand graduate students nationwide; provides three years of partial tuition support and a stipend for graduate studies}
 \item American Institute of Chemical Engineers Professional Promise Award, 2010\\
@@ -168,7 +190,8 @@ Email: cdsilva@princeton.edu & {\em Princeton, New Jersey 08544}\\
 \cvheading{Leadership Experience}
 \begin{itemize*}
 \item Class representative, Princeton University Chemical Engineering, 2011-2013
-\item Assistant in instruction, Chemical Reaction Engineering, Princeton University, Spring 2012
+\item Assistant in instruction, Chemical Reaction Engineering, Princeton University, Spring 2012  \\
+{\em \small Received the Air Products Assistant in Instruction Award for excellence in teaching in Chemical Engineering at Princeton University}
 \item Teaching assistant, Graph Theory, Carnegie Mellon University, Spring 2010
 \item Treasurer, Carnegie Mellon University student chapter of American Institute of Chemical Engineers, 2009-2010
 \item Peer tutor, Chemical Engineering and Mathematics courses, Carnegie Mellon University, 2008-2010

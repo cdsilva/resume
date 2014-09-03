@@ -1,7 +1,7 @@
 \documentclass[letterpaper,10pt]{article}
 
 \pagestyle{empty}
-\usepackage[letterpaper,left=0.75in,right=0.75in,top=0.75in,bottom=0.75in]{geometry}
+\usepackage[letterpaper,left=0.5in,right=0.5in,top=0.5in,bottom=0.5in]{geometry}
 \usepackage{amssymb}
 
 \renewcommand{\labelitemi}{\tiny$\blacksquare$}
@@ -9,11 +9,11 @@
 \newenvironment{itemize*}
   {\begin{itemize}
 %    \setlength{\itemsep}{0pt}
-    \setlength{\parskip}{-2pt}}
+    \setlength{\parskip}{-3pt}}
   {\end{itemize}}
 
 \newcommand{\cvheading}[1]{
-\vspace{0.11in}
+\vspace{0.05in}
 \noindent
 \MakeUppercase{\bf #1}
 \vspace{0.06in}
@@ -22,29 +22,29 @@
 
 \newcommand{\workplace}[4]{
 \noindent
-\vspace{0.012in}
+%\vspace{0.008in}
 \begin{tabular*}{1.0\textwidth}{@{\extracolsep{\fill}} l r}
 %\begin{tabular}{p{0.6\textwidth} p{0.35\textwidth}}
 {\bf #1} & #2\\
 {\em #3} & #4\\
 \end{tabular*}
-\vspace{-0.15in}
+%\vspace{-0.15in}
 }
 
 \newcommand{\workplaceadvisor}[5]{
 \noindent
-\vspace{0.012in}
+%\vspace{0.008in}
 \begin{tabular*}{1.0\textwidth}{@{\extracolsep{\fill}} l r}
 %\begin{tabular}{p{0.6\textwidth} p{0.35\textwidth}}
 {\bf #1} & #2\\
 {\em #3} & #4\\
 {\em #5} & \\
 \end{tabular*}
-\vspace{-0.15in}
+%\vspace{-0.15in}
 }
 
 \newcommand{\spacing}[0]{
-\vspace{0.1in}
+\vspace{0.01in}
 }
 
 
@@ -63,19 +63,19 @@ Email: cdsilva@princeton.edu & {\em Princeton, New Jersey 08544}\\
 
 \spacing
 
-\cvheading{Research Interests}
-\begin{itemize*}
-\item Data mining and machine learning (specializing in unsupervised learning)
-\item Parameter and model reduction
-\item Image analysis, symmetry reduction, pattern and anomaly detection
-\end{itemize*}
+%\cvheading{Research Interests}
+%\begin{itemize*}
+%\item Data mining and machine learning (specializing in unsupervised learning)
+%\item Parameter and model reduction 
+%\item Image analysis, symmetry reduction, pattern and anomaly detection
+%\end{itemize*}
 
 \cvheading{Education}
 \workplace{Princeton University}{September 2010 - present}{Department of Chemical and Biological Engineering}{Princeton, New Jersey}
 \begin{itemize*}
 \item Ph.D. candidate, Chemical Engineering
-\item M.A., Chemical Engineering, 2012
-\item Research advisor: Ioannis Kevrekidis
+%\item M.A., Chemical Engineering, 2012
+%\item Research advisor: Ioannis Kevrekidis
 \item Cumulative GPA: 3.94/4.0
 \end{itemize*}
 
@@ -92,25 +92,13 @@ Email: cdsilva@princeton.edu & {\em Princeton, New Jersey 08544}\\
 \workplace{Princeton University}{January 2011 - present}{Advisor: Dr. Ioannis Kevrekidis, Professor of Chemical and Biological Engineering}{Princeton, New Jersey}
 \begin{itemize*}
 \item Analyze data from complex systems using nonlinear dimensionality reduction techniques%, such as diffusion maps, to determine the appropriate variables to describe the system's underlying dynamics
-\item Explore data for a variety of applications, including images from microscopy of biological samples, trajectories from molecular dynamics simulations of molecules, and data from simulations of chemical reaction networks containing many species
-\item Uncover patterns and trends in data, as well as develop reduced models to describe the underlying dynamics
+\item Explore data for a variety of applications, including images from microscopy of biological samples, trajectories from molecular dynamics simulations of molecules, and data from simulations of chemical reaction networks
+%\item Uncover patterns and trends in data, as well as develop reduced models to describe the underlying dynamics
 %\item Uncover trends and patterns in images from microscopy of biological samples
 %\item Simulate complex molecular systems using molecular dynamics
 %\item Develop reduced models for chemical reaction networks and macromolecular simulations
 \end{itemize*}
 
-\spacing
-
-\workplace{Carnegie Mellon University}{October 2006 - May 2010}{Advisor: Dr. John Kitchin, Associate Professor of Chemical Engineering}{Pittsburgh, Pennsylvania}
-\begin{itemize*}
-%\item Worked for Dr. John Kitchin, Professor of Chemical Engineering
-\item Studied oxidation on platinum surfaces using density functional theory (DFT), September 2008-May 2010
-\item Developed catalysts for methanol fuel cells (experimental work), October 2006-May 2008
-\end{itemize*}
-
-%\newpage
-
-\cvheading{Work Experience}
 \workplaceadvisor{Argonne National Laboratory}{June-August 2012}{Dr. Mihai Anitescu, Computational Mathematician}{Lemont, Illinois}{Summer Intern, Mathematics and Computer Science Division}
 \begin{itemize*}
 %\item Worked with Dr. Mihai Anitescu
@@ -118,21 +106,27 @@ Email: cdsilva@princeton.edu & {\em Princeton, New Jersey 08544}\\
 \item Developed a statistical model to describe diffusion processes in uranium dioxide
 \end{itemize*}
 
-\workplace{ExxonMobil}{May-Aug. 2009, June-Sept. 2010}{Summer Intern, ExxonMobil Research and Engineering}{Clinton, New Jersey}
-\begin{itemize*}
-\item Studied optimization techniques for bilinear systems for refinery process design applications, Summer 2010
-\item Modeled the cleavage of heavy hydrocarbons during crude refining using lumping techniques, Summer 2009
-\end{itemize*}
+%\workplace{Carnegie Mellon University}{October 2006 - May 2010}{Advisor: Dr. John Kitchin, Associate Professor of Chemical Engineering}{Pittsburgh, Pennsylvania}
+%\begin{itemize*}
+%%\item Worked for Dr. John Kitchin, Professor of Chemical Engineering
+%\item Studied oxidation on platinum surfaces using density functional theory (DFT), September 2008-May 2010
+%\item Developed catalysts for methanol fuel cells (experimental work), October 2006-May 2008
+%\end{itemize*}
 
-\cvheading{Computing Skills}
-\begin{itemize*}
-\item Proficient in MATLAB and Python
-\item Familiar with C, C++, Java
-\item Exposure to Visual Basic and R
-\item LAMMPS for molecular dynamics simulations
-\end{itemize*}
+%\workplace{ExxonMobil}{May-Aug. 2009, June-Sept. 2010}{Summer Intern, ExxonMobil Research and Engineering}{Clinton, New Jersey}
+%\begin{itemize*}
+%\item Studied optimization techniques for bilinear systems for refinery process design applications, Summer 2010
+%\item Modeled the cleavage of heavy hydrocarbons during crude refining using lumping techniques, Summer 2009
+%\end{itemize*}
 
-\newpage
+%\cvheading{Computing Skills}
+%\begin{itemize*}
+%\item Proficient in MATLAB and Python
+%\item Familiar with C, C++, Java
+%\item Exposure to Visual Basic and R
+%\item LAMMPS for molecular dynamics simulations
+%\end{itemize*}
+
 
 \cvheading{Publications}
 \begin{itemize*}
@@ -143,18 +137,18 @@ Email: cdsilva@princeton.edu & {\em Princeton, New Jersey 08544}\\
 \item Y. Xue, P. J. Ludovice, M. A. Grover, L. V. Nedialkova, {\bf C. J. Dsilva}, and I. G. Kevrekidis, ``State reduction in molecular simulations,'' {\em Computers \& Chemical Engineering}, 2013
 \item S. Miller, {\bf C. Dsilva}, and J. R. Kitchin, ``Coverage dependent adsorption properties of atomic adsorbates on late transition metal surfaces,'' {\em Catalysis}, volume 24, Royal Society of Chemistry, 2012
 \end{itemize*}
-
+%
 {\em In preparation}
-
+%
 \begin{itemize*}
 \item {\bf C. J. Dsilva}, R. Talmon, R. R. Coifman, and I. G. Kevrekidis, ``Choosing appropriate metrics for diffusion maps analysis: A chemotaxis case study''
-\item {\bf C. J. Dsilva}, R. Talmon, C. W. Gear, R. R. Coifman, and I. G. Kevrekidis, ``Nonlinear intrinsic variables for the reduction of multiscale stochastic systems''
+\item {\bf C. J. Dsilva}, R. Talmon, C. W. Gear, R. R. Coifman, and I. G. Kevrekidis, ``Data-driven reduction of multiscale stochastic dynamical systems''
 \end{itemize*}
 
 \cvheading{Presentations}
 \begin{itemize*}
-\item American Institute for Chemical Engineers (AIChE) Annual Meeting,  ``Intrinsic variables and the consistent reduction of molecular simulation models", oral presentation, San Francisco, California, November 2013
-\item AIChE Annual Meeting,  ``Image mining and the temporal evolution of protein spatial patterns: A case study in {\it Drosophila} embryogenesis", oral presentation, San Francisco, California, November 2013
+\item American Institute for Chemical Engineers  (AIChE) Annual Meeting,  ``Intrinsic variables and the consistent reduction of molecular simulation models", oral presentation, San Francisco, California, November 2013
+\item AIChE Annual Meeting, ``Image mining and the temporal evolution of protein spatial patterns: A case study in {\it Drosophila} embryogenesis", oral presentation, San Francisco, California, November 2013
 %\item Department of Energy Computational Science Graduate Fellowship Annual Program Review, ``Validating Reduced Models Using Nonlinear Intrinsic Variables'', poster presentation, July 2013
 \item Society for Industrial and Applied Mathematics (SIAM) Conference on Dynamical Systems, ``Diffusion maps for model reduction of dynamics with symmetries'', oral presentation, Snowbird, Utah, May 2013
 \item SIAM Conference on Computational Science and Engineering, ``Analysis of glassy potential energy landscapes'', oral presentation, Boston, Massachusetts, February 2013
@@ -163,11 +157,11 @@ Email: cdsilva@princeton.edu & {\em Princeton, New Jersey 08544}\\
 %\item Department of Energy Computational Science Graduate Fellowship Annual Conference, ``The Study of a Lennard-Jones Cluster Using Diffusion Maps'', poster presentation, July 2011
 \end{itemize*}
 
-\cvheading{Academic Programs}
-\begin{itemize*}
-\item Machine Learning Summer School, Max Planck Institute, T\"{u}bingen, Germany, August 2013
-\item Winter School on Complex Modeling and Networks, New England Complex Systems Institute, Cambridge, Massachusetts, January 2013
-\end{itemize*}
+%\cvheading{Academic Programs}
+%\begin{itemize*}
+%\item Machine Learning Summer School, Max Planck Institute, T\"{u}bingen, Germany, August 2013
+%\item Winter School on Complex Modeling and Networks, New England Complex Systems Institute, Cambridge, Massachusetts, January 2013
+%\end{itemize*}
 
 
 
@@ -176,27 +170,27 @@ Email: cdsilva@princeton.edu & {\em Princeton, New Jersey 08544}\\
 \begin{itemize*}
 %\item Air Products Assistant in Instruction Award, 2013\\
 %    {\em \small Awarded annually to two graduate students in Chemical Engineering at Princeton University for excellence in teaching}
-\item Department of Energy Computational Science Graduate Fellowship, 2010 \\
-    {\em \small Awarded annually to approximately twenty graduate students nationwide; provides four years of tuition and a stipend}
-\item National Science Foundation Graduate Research Fellowship, 2010 (deferred)\\
-    {\em \small Awarded annually to approximately two thousand graduate students nationwide; provides three years of partial tuition support and a stipend for graduate studies}
-\item American Institute of Chemical Engineers Professional Promise Award, 2010\\
-    {\em \small Awarded annually to one outstanding undergraduate senior at each university}
+\item Department of Energy Computational Science Graduate Fellowship, 2010 
+%    {\em \small Awarded annually to approximately twenty graduate students nationwide; provides four years of tuition and a stipend}
+\item National Science Foundation Graduate Research Fellowship, 2010 (deferred)
+%    {\em \small Awarded annually to approximately two thousand graduate students nationwide; provides three years of partial tuition support and a stipend for graduate studies}
+%\item American Institute of Chemical Engineers Professional Promise Award, 2010\\
+%    {\em \small Awarded annually to one outstanding undergraduate senior at each university}
 %\item Phi Beta Kappa honor society member, Spring 2010
-\item Barry M. Goldwater Scholarship, 2009\\
-    {\em \small Awarded annually to approximately three hundred outstanding undergraduate students nationwide to encourage them to pursue careers in science and engineering}
+%\item Barry M. Goldwater Scholarship, 2009\\
+%    {\em \small Awarded annually to approximately three hundred outstanding undergraduate students nationwide to encourage them to pursue careers in science and engineering}
 %\item Phi Kappa Phi honor society member, 2009
 \end{itemize*}
 
-\cvheading{Leadership Experience}
-\begin{itemize*}
-\item Class representative, Princeton University Chemical Engineering, 2011-2013
-\item Assistant in instruction, Chemical Reaction Engineering, Princeton University, Spring 2012  \\
-{\em \small Received the Air Products Assistant in Instruction Award for excellence in teaching in Chemical Engineering at Princeton University}
+%\cvheading{Leadership Experience}
+%\begin{itemize*}
+%\item Class representative, Princeton University Chemical Engineering, 2011-2013
+%\item Assistant in instruction, Chemical Reaction Engineering, Princeton University, Spring 2012  \\
+%{\em \small Received the Air Products Assistant in Instruction Award for excellence in teaching in Chemical Engineering at Princeton University}
 %\item Teaching assistant, Graph Theory, Carnegie Mellon University, Spring 2010
 %\item Treasurer, Carnegie Mellon University student chapter of American Institute of Chemical Engineers, 2009-2010
 %\item Peer tutor, Chemical Engineering and Mathematics courses, Carnegie Mellon University, 2008-2010
 %\item Residential assistant, Carnegie Mellon University, 2008-2009 and 2009-2010 academic years
-\end{itemize*}
+%\end{itemize*}
 
 \end{document}
